@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
+import orig.springframework.web.stereotype.Controller;
 
 import com.piedpiper.exception.BookException;
 import com.piedpiper.model.Book;
