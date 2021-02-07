@@ -1,4 +1,4 @@
-package com.piedpiper.model
+package com.piedpiper.model;
 
 public class Employee {
 	private String empId;
