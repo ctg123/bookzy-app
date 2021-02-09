@@ -27,7 +27,7 @@ pipeline {
             steps {
                 echo "Deploying war file to Tomcat Server."
                 deploy adapters: [tomcat9(credentialsId: '521c684c-fb8c-4b6b-9910-bfa6b2ada88c', path: '',
-                url: 'http://ec2-3-129-88-225.us-east-2.compute.amazonaws.com:8080/')], contextPath: 'demo', 
+                url: 'http://ec2-3-129-88-225.us-east-2.compute.amazonaws.com:8080/')], contextPath: 'demoApplication', 
                 war:'**/*.war'
             } 
         }
