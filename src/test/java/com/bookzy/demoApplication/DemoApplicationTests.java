@@ -1,10 +1,10 @@
-package com.piedpiper.test;
+package com.bookzy.demoApplication;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BookzyApplicationTests {
+class DemoApplicationTests {
 
 	@Test
 	void contextLoads() {
