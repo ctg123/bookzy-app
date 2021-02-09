@@ -29,7 +29,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="/products/all">Products</a></li>
+        <li><a href="/demoApplication/products/all">Products</a></li>
         <li><a href="#">Discounts</a></li>
         <li><a href="#">Categories</a></li>
         <li><a href="#">Contact</a></li>
