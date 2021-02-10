@@ -6,15 +6,15 @@ public class Product {
 	private String name;
 	private String description;
 	private double price;
-	private String seller;
+	private String author;
 	
-	public Product(String id, String name, String description, double price, String seller) {
+	public Product(String id, String name, String description, double price, String author) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.description = description;
 		this.price = price;
-		this.seller = seller;
+		this.author = author;
 	}
 	
 	public String getId() {
@@ -41,11 +41,11 @@ public class Product {
 	public void setPrice(double price) {
 		this.price = price;
 	}
-	public String getSeller() {
-		return seller;
+	public String getAuthor() {
+		return author;
 	}
-	public void setSeller(String seller) {
-		this.seller = seller;
+	public void setAuthor(String author) {
+		this.author = author;
 	}
 	
 	
