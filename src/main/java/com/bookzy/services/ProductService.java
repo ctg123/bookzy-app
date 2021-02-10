@@ -14,9 +14,10 @@ public class ProductService {
 	public List<Product> getAllProducts() {
 		
 		List<Product> listOfProducts = new ArrayList<>();
-		listOfProducts.add(new Product("123", "IPHONE X", "This is Awesome Iphone ", 400.4, "Apple Inc"));
-		listOfProducts.add(new Product("124", "Samsung Y", "This is Awesome Samsung ", 300.4, "Samsung Inc"));
-		listOfProducts.add(new Product("125", "LG Z", "This is Awesome LG ", 200.4, "LG Inc"));
+		listOfProducts.add(new Product("book-1", "Python Crash Course: A Hands-On, Project-Based Introduction to Programming", "Second edition of the best-selling Python book in the world. A fast-paced, no-nonsense guide to programming in Python. Updated and thoroughly revised to reflect the latest in Python code and practices.
+        ", 25.00, "Eric Matthes"));
+		listOfProducts.add(new Product("book-2", "Samsung Y", "This is Awesome Samsung ", 300.4, "Samsung Inc"));
+		listOfProducts.add(new Product("book-3", "LG Z", "This is Awesome LG ", 200.4, "LG Inc"));
 
 		return listOfProducts;
 	}
