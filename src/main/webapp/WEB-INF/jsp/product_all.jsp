@@ -7,8 +7,8 @@
       <div class="panel panel-primary">
         <div class="panel-heading"> ${product.name} </div>
         <div class="panel-body">
+        <p>Author :  ${product.author} </p>
         <p>Price : ${product.price}  </p>
-		<p>Author :  ${product.author} </p>  
         </div>
         <div class="panel-footer"> <button type="button" class="btn btn-primary btn-md"
            onClick="location.href='/demoApplication/products/${product.id} ' ">Browse</button></div>

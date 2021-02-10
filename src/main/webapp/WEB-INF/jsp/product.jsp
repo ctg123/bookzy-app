@@ -8,8 +8,8 @@
         <div class="panel-heading"> ${product.name} </div>
         <div class="panel-body">
         <p>Description : ${product.description}  </p>
+        <p>Author :  ${product.author} </p>
         <p>Price : ${product.price}  </p>
-		<p>Author :  ${product.author} </p>  
         </div>
         <div class="panel-footer"> <button type="button" class="btn btn-primary btn-md"
            onClick="location.href=' ' ">Buy</button></div>
